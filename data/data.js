@@ -1,39 +1,34 @@
-export const data = 
+export const datos = 
 [
     {
         "id": 1,
-        "name": "Black Widow",
-        "image": "/images/1.jpg",
+        "name": "Ford Mustang",
+        "image": "https://i.pinimg.com/236x/c2/80/17/c280178fbd75fced99586e3d9d0d3209.jpg"
     },
     {
         "id": 2,
-        "name": "Spider-Man: Far From Home",
-        "image": "/images/2.png",
+        "name": "Maserati",
+        "image": "https://i.pinimg.com/236x/a3/28/7f/a3287f999f542133b4378747f08b38b5.jpg"
     },
     {
         "id": 3,
-        "name": "Avengers: Endgame",
-        "image": "/images/y.jpg",
+        "name": "Ferrari",
+        "image": "https://i.pinimg.com/236x/68/0f/20/680f208d9dece3602225b7c8c99eb179.jpg"
     },
     {
         "id": 4,
-        "name": "Capitana Marvel",
-        "image": "/images/4.png",
+        "name": "Hyundai Shark",
+        "image": "https://i.pinimg.com/236x/e0/18/8a/e0188a7a7df64c61befe95622ad72441.jpg"
     },
     {
         "id": 5,
-        "name": "Thor: Ragnarok",
-        "image": "/images/5.png",
+        "name": "Mazda",
+        "image": "https://i.pinimg.com/236x/76/d6/82/76d6827ec9506f8298002a753022ecd9.jpg"
     }
     ,
     {
         "id": 6,
-        "name": "Pantera Negra (película)",
-        "image": "/images/6.1.jpg",
-    },
-    {
-        "id": 7,
-        "name": "Pantera Negra (película)",
-        "image": "/images/6.1.jpg",
+        "name": "Ford Titanium",
+        "image": "https://i.pinimg.com/236x/cd/1b/11/cd1b11512fb404fbd400c086598b5efd.jpg"
     }
 ]
