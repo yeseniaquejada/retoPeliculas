@@ -1,7 +1,21 @@
+body{
+    overflow-x: hidden;
+}
+
 #fondo{
     background-color:#323238;
 }
 
 #items{
     padding: 20px 50px;
+}
+
+#item{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#item img{
+    width: 200px
 }
