@@ -1,4 +1,5 @@
-import { data } from  './data/data.js';
+import { data } from './data/data.js';
+
 
 const items = document.getElementById("items");
 const templateCard = document.getElementById("template-card").content;
