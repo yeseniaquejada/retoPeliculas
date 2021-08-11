@@ -2,33 +2,63 @@ export const datos =
 [
     {
         "id": 1,
-        "name": "Ford Mustang",
-        "image": "https://i.pinimg.com/236x/c2/80/17/c280178fbd75fced99586e3d9d0d3209.jpg"
+        "name": "Ant-Man y la Avispa",
+        "image": "/images/a.png",
     },
     {
         "id": 2,
-        "name": "Maserati",
-        "image": "https://i.pinimg.com/236x/a3/28/7f/a3287f999f542133b4378747f08b38b5.jpg"
+        "name": "Spider-Man: Far From Home",
+        "image": "/images/2.png",
     },
     {
         "id": 3,
-        "name": "Ferrari",
-        "image": "https://i.pinimg.com/236x/68/0f/20/680f208d9dece3602225b7c8c99eb179.jpg"
+        "name": "Avengers: Endgame",
+        "image": "/images/y.jpg",
     },
     {
         "id": 4,
-        "name": "Hyundai Shark",
-        "image": "https://i.pinimg.com/236x/e0/18/8a/e0188a7a7df64c61befe95622ad72441.jpg"
+        "name": "Iron man",
+        "image": "/images/iro.jpg",
     },
     {
         "id": 5,
-        "name": "Mazda",
-        "image": "https://i.pinimg.com/236x/76/d6/82/76d6827ec9506f8298002a753022ecd9.jpg"
+        "name": "Doctor Strange: hechicero supremo",
+        "image": "/images/doc.png",
     }
     ,
     {
         "id": 6,
-        "name": "Ford Titanium",
-        "image": "https://i.pinimg.com/236x/cd/1b/11/cd1b11512fb404fbd400c086598b5efd.jpg"
+        "name": "Pantera Negra (película)",
+        "image": "/images/6.1.jpg",
+    },
+    {
+        "id": 7,
+        "name": "Avengers: Infinity War)",
+        "image": "/images/infi.png",
+    },
+    {
+        "id": 8,
+        "name": "Hulk",
+        "image": "/images/hu.png",
+    },
+    {
+        "id": 9,
+        "name": "Guardianes de la galaxia",
+        "image": "/images/guar.jpg",
+    },
+    {
+        "id": 10,
+        "name": "Capitán América: el primer vengador",
+        "image": "images/cap.jpg",
+    },
+    {
+        "id": 11,
+        "name": "Avengers: era de Ultrón",
+        "image": "images/ultron.png",
+    },
+    {
+        "id": 12,
+        "name": "Iron Man 3",
+        "image": "images/3.png",
     }
 ]
