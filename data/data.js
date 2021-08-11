@@ -30,5 +30,10 @@ export const data =
         "id": 6,
         "name": "Pantera Negra (película)",
         "image": "/images/6.1.jpg",
+    },
+    {
+        "id": 7,
+        "name": "Pantera Negra (película)",
+        "image": "/images/6.1.jpg",
     }
 ]
