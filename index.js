@@ -2,8 +2,10 @@ import { datos } from './data/data.js';
 
 const items = document.getElementById('items');
 const item = document.getElementById('item');
+const contenedorFormulario = document.querySelector('#formulario')
 const templateCard = document.getElementById('template-card').content;
 const templateCard2 = document.getElementById('template-card2').content;
+const templateCard3 = document.getElementById('template-card3').content;
 const fragment = document.createDocumentFragment();
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -45,5 +47,13 @@ document.addEventListener('click', e => {
     }
 })
 
+document.addEventListener('click', e => {
+    if(e.target.matches('#registro')){
+        container.remove()
+        items.remove()
+        // item.remove()
+        console.log(templateCard3);
+        contenedorFormulario.appendChild(templateCard3)
+    }
 
-
+})

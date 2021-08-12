@@ -28,3 +28,29 @@ body{
 #contenedor-grid-descripcion-pelicula p{
     padding: 30px 10px;
 }
+
+#formulario{
+    display: grid;
+    justify-items: center;
+    margin: 0 25vw;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+#titulo-formulario{
+    font-size: 28px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding: 20px ;
+}
+
+#contenedor-flex-form{
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor-text-area{
+    margin: 0 150px;
+}
