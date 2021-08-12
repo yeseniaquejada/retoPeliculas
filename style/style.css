@@ -2,13 +2,24 @@ body{
     overflow-x: hidden;
 }
 
+#navegacion{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+    background-color: blueviolet;
+}
+
 #fondo{
-    background-color:#323238;
+    background-color:#2c2c30;
 }
 
 #items{
     padding: 20px 50px;
 }
+
+
+/* Descripcion peliculas */
 
 #item{
     display: grid;
@@ -29,13 +40,15 @@ body{
     padding: 30px 10px;
 }
 
+/* Formulario */
+
+
 #formulario{
     display: grid;
     justify-items: center;
     margin: 0 25vw;
     background-color: rgb(255, 255, 255);
 }
-
 
 
 #titulo-formulario{
