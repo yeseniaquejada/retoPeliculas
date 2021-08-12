@@ -13,9 +13,18 @@ body{
 #item{
     display: grid;
     justify-items: center;
-    align-items: center;
 }
 
-#item img{
-    width: 200px
+#contenedor-grid-descripcion-pelicula{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+}
+
+#contenedor-grid-descripcion-pelicula img{
+    width: 300px
+}
+
+#contenedor-grid-descripcion-pelicula p{
+    padding: 30px 10px;
 }

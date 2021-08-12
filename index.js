@@ -30,13 +30,14 @@ document.addEventListener('click', e => {
         
         const imagenClickeada = e.target.getAttribute('src')
         const name = e.target.getAttribute('name')
-        const container = document.querySelector('#container')
+
         container.remove()
         items.remove()
 
-        templateCard.querySelector('h5').textContent = name;
-        templateCard.querySelector('img').setAttribute('src', imagenClickeada);
-        const clone = templateCard.cloneNode(true);
+        templateCard2.querySelector('h5').textContent = name;
+        templateCard2.querySelector('img').setAttribute('src', imagenClickeada);
+        templateCard2.querySelector('#descripcion').textContent = "Esta es una muy buena película para ver en familia blaaaaa blaaaaaa bla bla blaaaa etc etc blaaaa bla blablablabla buuu prrrrrrfff bla blablablabla buuu prrrrrrff bla blablablabla buuu prrrrrrff bla blablablabla buuu prrrrrrffajajajj ejje jiji jojjo :P .l."
+        const clone = templateCard2.cloneNode(true);
         fragment.appendChild(clone);
         // appendChild agrega un nodo al final de la lista
         item.appendChild(fragment);
