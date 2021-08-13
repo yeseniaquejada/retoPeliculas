@@ -131,35 +131,35 @@
         
         <div class="row text-center text-primary" id="formulario" style="font-family: 'Bubbler One', sans-serif;" id="fondo">
           <template id="template-card3">
-            <form> 
+            <form id="formularioP"> 
                 <h5 class="text-primary" id="titulo-formulario" style="font-family: 'Bubblegum Sans', cursive;  font-size: 30px;">Formulario de Registro</h5>
             <div id="contenedor-flex-form">
                           <div class="col-md-4" style="margin: 20px;">
                             <label for="validationCustom01" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" placeholder="Nombre" required>
+                            <input id="nom" type="text" class="form-control" placeholder="Nombre" required>
                           </div>
 
                           <div class="col-md-4" style="margin: 20px;">
                             <label for="validationCustom02" class="form-label">Apellido</label>
-                            <input type="text" class="form-control" placeholder="Apellido" required>
+                            <input id="apellido" type="text" class="form-control" placeholder="Apellido" required>
                           </div>  
                         </div>
 
             <div id="contenedor-flex-form">
                           <div class="col-md-4" style="margin: 20px;">
                             <label for="validationCustom01" class="form-label">Teléfono</label>
-                            <input type="number" class="form-control" placeholder="Teléfono" required>
+                            <input id="telefono" type="number" class="form-control" placeholder="Teléfono" required>
                           </div>
 
                           <div class="col-md-4" style="margin: 20px;">
                             <label for="validationCustom02" class="form-label">Dirección</label>
-                            <input type="text" class="form-control" placeholder="Dirección" required>
+                            <input id="direccion" type="text" class="form-control" placeholder="Dirección" required>
                           </div>  
                         </div>
 
                         <div class="col-md-6" id="contenedor-text-area">
                           <label for="">Observaciones</label>
-                          <textarea name="observaciones" id="cajita" placeholder="Ingresar observaciones" cols="30" rows="10"></textarea>
+                          <textarea id="observaciones" name="observaciones" id="cajita" placeholder="Ingresar observaciones" cols="30" rows="10"></textarea>
                         </div>
                         <br> 
                           <button type="submit" class="btn btn-primary" style="font-family: 'Bubblegum Sans', cursive;  font-size: 20px;">Enviar</button>
@@ -176,7 +176,7 @@
     </main>
         
     <footer class="bg-dark" style="text-align:center; font-family: 'Bubblegum Sans', cursive;  font-size: 20px; color: aliceblue; align-items: center;">
-      <img src="images/logo.png" alt="Logo"  height="60">
+      <a href="index.html"><img src="images/logo.png" alt="Logo"  height="60"></a>
       <br>
       <br>
       Creado por Yesenia Quejada Rojas - Luis Alfonso Corrales Marin
